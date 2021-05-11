@@ -7,7 +7,7 @@ from encrypting import *
 
 def main():
     database_file_name = 'passwords.txt'
-    # encrypt_file(database_file_name)
+    # encrypt_file(database_file_name) # uncomment if the file need to be encrypted first
     decrypt_file(database_file_name)
     page_base = load_data_from_file(database_file_name)
     clear_file(database_file_name)
